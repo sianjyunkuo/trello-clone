@@ -5,34 +5,34 @@ let cardID = 5;
 
 const initialState = [
   {
-    title: "Last Episode",
+    title: "title1",
     id: `list-${0}`,
     cards: [
       {
         id: `card-${0}`,
-        text: "We created a static list and a static card"
+        text: "card0"
       },
       {
         id: `card-${1}`,
-        text: "We used a mix between material UI React and styled component."
+        text: "card1"
       }
     ]
   },
   {
-    title: "Last Episode",
+    title: "title2",
     id: `list-${1}`,
     cards: [
       {
         id: `card-${2}`,
-        text: "We will create our first reducer"
+        text: "card2"
       },
       {
         id: `card-${3}`,
-        text: "and render many cards on our list with static data"
+        text: "card3"
       },
       {
         id: `card-${4}`,
-        text: "we will also make some little changes I forgot in the last epi"
+        text: "card4"
       }
     ]
   }
