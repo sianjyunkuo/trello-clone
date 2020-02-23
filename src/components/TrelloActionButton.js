@@ -140,8 +140,7 @@ const styles = {
     borderRadius: 3,
     height: 36,
     width: 272,
-    paddingLeft: 10,
-    marginTop: 8
+    paddingLeft: 10
   },
   formButtonGroup: {
     marginTop: 8,
