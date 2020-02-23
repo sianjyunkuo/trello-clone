@@ -49,7 +49,7 @@ const listsReducer = (state = initialState, action) => {
       listID += 1;
       return [...state, newList];
 
-    case CONSTANTS.ADD_CARDS: {
+    case CONSTANTS.ADD_CARD: {
       const newCard = {
         text: action.payload.text,
         id: `card-${cardID}`

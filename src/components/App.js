@@ -12,6 +12,15 @@ class App extends Component {
     if (!destination) {
       return;
     }
+    this.props.dispatch(
+      sort(
+        source.droppableId,
+        destination.droppableId,
+        source.index,
+        destination.index,
+        draggableId
+      )
+    );
   };
   render() {
     const { lists } = this.props;
