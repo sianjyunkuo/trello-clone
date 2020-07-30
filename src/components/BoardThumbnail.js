@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Thumbnail = styled.div`
   height: 280px;
   width: 280px;
-  background: yellow;
+  background: yellow;
   padding: 10px;
   margin: 8px;
   display: flex;
