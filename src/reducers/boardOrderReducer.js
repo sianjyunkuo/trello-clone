@@ -1,8 +1,6 @@
 import { CONSTANTS } from "../actions";
 import uuid from "uuidv4";
 
-console.log(uuid());
-
 const initialState = ["board-0"];
 
 const boardOrderReducer = (state = initialState, action) => {
